@@ -1,4 +1,4 @@
-# Web Application Coursework Project
+# Research Papers Web Application Project
 
 This repository contains the code for a web application developed as part of a assignment for an undergraduate web development module. The application presents information about research papers presented in the academic conference "CHI Play" in 2021. The goal of the project was to create a functional and efficient solution to a real-world problem using web development technologies.
 
