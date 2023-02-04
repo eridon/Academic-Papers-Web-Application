@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 60px;
+}
+
+img {
+  width: 65%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+footer {
+  background-color: lightgray;
+  font-weight: bold;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.background {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #111;
+}
+
+.author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.author-card-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.author-card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.author-card-detail {
+  font-size: 14px;
+}
+
+.author-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.author-cards-container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  grid-gap: 20px;
+}
+
+.author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.author-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.author-card h3 {
+  margin: 0;
+}
+
+.author-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.search-bar {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s;
+}
+
+.search-bar:hover {
+  background-color: #ffffff;
+}
+
+.filters-container {
+  display: flex;
+  align-items: center;
+}
+
+.award-filter {
+  margin-left: 10px;
+}
+
+.navbar .navbar-brand {
+  text-decoration: none;
+}
